@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/albizan/amazon-asin-scraper#readme",
   "dependencies": {
-    "puppeteer": "^5.2.1",
-    "puppeteer-extra": "^3.1.13",
-    "puppeteer-extra-plugin-stealth": "^2.5.0"
+    "fs-extra": "^9.0.1",
+    "puppeteer": "^5.2.1"
   }
 }
