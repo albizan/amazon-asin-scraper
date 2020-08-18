@@ -5,7 +5,7 @@ async function scrapeAsins(keywords) {
   try {
     const asins = new Set();
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
     });
     const page = await browser.newPage();
     for (const keyword of keywords) {
