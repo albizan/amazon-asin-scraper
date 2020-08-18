@@ -1,0 +1,30 @@
+{
+  "name": "amazon-asin-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albizan/amazon-asin-scraper.git"
+  },
+  "keywords": [
+    "amazon",
+    "scraper",
+    "asin",
+    "scrape asins"
+  ],
+  "author": "Alberto Zanotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albizan/amazon-asin-scraper/issues"
+  },
+  "homepage": "https://github.com/albizan/amazon-asin-scraper#readme",
+  "dependencies": {
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.13",
+    "puppeteer-extra-plugin-stealth": "^2.5.0"
+  }
+}
