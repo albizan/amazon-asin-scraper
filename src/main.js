@@ -11,8 +11,8 @@ async function start() {
   }
   console.info("Keywords trovate: " + keywords.size);
 
-  // Init scraping operation
-  const asins = await scrapeAsins(Array.from(keywords));
+  // Init scraping operation, second parameter is the limit of asins to be scraped for each keyword
+  const asins = await scrapeAsins(Array.from(keywords), 3);
 
   // Write asins to data/asins.txt file
   await write(asins);
